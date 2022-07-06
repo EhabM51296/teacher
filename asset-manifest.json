@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/teacher/static/css/main.b47bc453.css",
+    "main.js": "/teacher/static/js/main.73a90c87.js",
+    "static/js/787.61b91752.chunk.js": "/teacher/static/js/787.61b91752.chunk.js",
+    "static/media/Roboto-Medium.ttf": "/teacher/static/media/Roboto-Medium.7429a63c09f79a1760b0.ttf",
+    "static/media/Roboto-Thin.ttf": "/teacher/static/media/Roboto-Thin.1711b41f3ae4cb322eea.ttf",
+    "static/media/Roboto-Regular.ttf": "/teacher/static/media/Roboto-Regular.a8d6ac03c7b96b7acb62.ttf",
+    "static/media/Roboto-Black.ttf": "/teacher/static/media/Roboto-Black.2a4285847db4a9acb97f.ttf",
+    "static/media/Roboto-Bold.ttf": "/teacher/static/media/Roboto-Bold.75371f53f06181df75f1.ttf",
+    "index.html": "/teacher/index.html",
+    "main.b47bc453.css.map": "/teacher/static/css/main.b47bc453.css.map",
+    "main.73a90c87.js.map": "/teacher/static/js/main.73a90c87.js.map",
+    "787.61b91752.chunk.js.map": "/teacher/static/js/787.61b91752.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b47bc453.css",
+    "static/js/main.73a90c87.js"
+  ]
+}
