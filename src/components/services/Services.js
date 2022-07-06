@@ -9,6 +9,7 @@ const Services = (props) => {
         <div className={classes["servicesRow"]}>
           <div className={classes["square"]}>
             <div>
+              <img src="images/html.png" alt="html" />
               <h1>HTML</h1>
               <p>The first step to create a website</p>
             </div>
