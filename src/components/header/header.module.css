@@ -1,0 +1,10 @@
+.header{
+    width: 100%;
+    padding: 20px 0px;
+    box-shadow: 0px 0px 10px 0px #888888;
+}
+.headerLogo{
+   flex-basis: 30%;
+   font-family: fontBlack;
+   font-size: 20px;
+}

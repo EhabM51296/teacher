@@ -1,0 +1,14 @@
+.section {
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.section.white {
+    background-color: white;
+    color: black;
+}
+
+.section.primary{
+    background-color: #04DCB3;
+    color: white;
+}

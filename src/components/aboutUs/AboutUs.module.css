@@ -1,0 +1,23 @@
+.teamSection{
+    grid-template-columns: 40% 40%;
+    column-gap: 20%;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.teamMember{
+    box-shadow: 5px 10px 8px 10px #888888;
+    padding: 20px 15px;
+}
+.teamMember p{
+    font-family: fontRegular;
+    padding-top: 10px;
+}
+.teamPic {
+    width: 100%;
+}
+
+.teamPic img {
+    width: 100%;
+}

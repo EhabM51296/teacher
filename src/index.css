@@ -1,0 +1,89 @@
+/* fonts */
+@font-face {
+  font-family: fontBlack;
+  src: url(./font/Roboto-Black.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: fontBold;
+  src: url(./font/Roboto-Bold.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: fontMedium;
+  src: url(./font/Roboto-Medium.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: fontRegular;
+  src: url(./font/Roboto-Regular.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: fontThin;
+  src: url(./font/Roboto-Thin.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  overflow-x:hidden;
+  max-width: 1600px;
+  margin: auto;
+}
+
+/* displays */
+.flex{
+  display: flex;
+  align-items: center;
+}
+.flex-spaceBetween{
+  display: flex;
+  justify-content: space-between;
+}
+.grid{
+  display: grid;
+}
+/* positions */
+.absolute{
+  position: absolute;
+}
+.absolute-VHmiddle{
+  position: absolute;
+  left:50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+/* width */
+.Width-Fill{
+  width: 100%;
+}
+.Width-95{
+  width: 95%;
+}
+/* elements align(margins) */
+.m-auto{
+  margin: auto;
+}
+.m-left{
+  margin-left: auto;
+}
+/* paddings */
+.pdT-30{
+  padding-top: 30px;
+}
+/* colors */
+.txtWhite{
+  color: white;
+}
