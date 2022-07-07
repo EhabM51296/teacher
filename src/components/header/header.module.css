@@ -4,7 +4,19 @@
     box-shadow: 0px 0px 10px 0px #888888;
 }
 .headerLogo{
-   flex-basis: 30%;
-   font-family: fontBlack;
-   font-size: 20px;
+   flex-basis: 40%;
+}
+.navigator{
+    display: none;
+    flex-basis: 20%;
+}
+@media(max-width:500px)
+{
+    .headerLogo{
+        flex-basis: 80%;
+     }
+     .navigator{
+        display: block;
+    }
+
 }

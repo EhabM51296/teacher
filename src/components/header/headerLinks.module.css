@@ -1,5 +1,4 @@
 .nav{
-    display: flex;
     align-content: flex-start;
     flex-basis: 70%;
     align-items: center;
@@ -8,7 +7,37 @@
     list-style-type: none;
     flex-basis: 25%;
     text-align: center;
-    font-family: fontMedium;
-    font-size: 15px;
     cursor: pointer;
+}
+
+li.specialLink{
+    padding: 10px 0px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 1s;
+    background-color: #04DCB3;
+    color: white;
+}
+li.specialLink:hover{
+    background-color: black;
+}
+@media(max-width:500px)
+{
+    .nav{
+        flex-direction: column;
+        flex-basis: 100%;
+        transition: all 1s;
+    }
+    .nav.block{
+        display: flex !important;
+    }
+    .nav.none{
+        display: none !important;
+    }
+    .nav li{
+        flex-basis: 100%;
+        padding: 10px 10px;
+    }
+    
+
 }

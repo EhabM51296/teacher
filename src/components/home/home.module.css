@@ -4,11 +4,19 @@
     width: 100%;
     position: relative;
 }
-.home h1{
-    font-family: fontBlack;
-    font-size: 40px;
-}
-.home h3{
-    font-family: fontThin;
-    font-size: 25px;
-}
+
+.absolute-VHmiddle{
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+  @media(max-width:500px)
+  {
+    .absolute-VHmiddle{
+        left:0%;
+        transform: translateY(-50%);
+        text-align: center;
+      }
+
+  }

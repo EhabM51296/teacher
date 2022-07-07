@@ -1,10 +1,10 @@
 import React from 'react';
 
-import classes from './sectionTitle.module.css';
+// import classes from './sectionTitle.module.css';
 
 const SectionTitle = (props) => {
   return (
-        <h2 className={classes['title']}>
+        <h2 className="sectionTitle txtCenter">
             {props.text}
         </h2>
   );

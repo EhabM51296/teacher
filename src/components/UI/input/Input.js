@@ -6,7 +6,7 @@ const Input = (props) => {
     <input
     type={props.type}
     placeholder={props.text}
-    className={`${classes["input"]}`}
+    className={`sectionText ${classes["input"]}`}
     />
   );
 };

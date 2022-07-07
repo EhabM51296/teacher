@@ -5,19 +5,11 @@
     margin: auto;
     margin-top: 50px;
 }
-
-.teamMember{
-    box-shadow: 5px 10px 8px 10px #888888;
-    padding: 20px 15px;
-}
-.teamMember p{
-    font-family: fontRegular;
-    padding-top: 10px;
-}
-.teamPic {
-    width: 100%;
-}
-
-.teamPic img {
-    width: 100%;
+@media(max-width:500px)
+{
+    .teamSection{
+        grid-template-columns: 100%;
+        column-gap: 0%;
+        width: 60%;
+    }   
 }

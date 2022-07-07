@@ -1,9 +1,7 @@
 import React from 'react';
 
-import Button from '../UI/button/Button';
 import classes from './headerLinks.module.css';
-
-const HeaderLinks = () => {
+const HeaderLinks = (props) => {
   const headerLinks = [
     {
       name: 'home',
@@ -20,14 +18,14 @@ const HeaderLinks = () => {
   ];
   return (
     <div className='Width-Fill'>
-      <ul className={classes['nav']}>
+      <ul className={`${classes['nav']} headerLinks flex ${classes[props.visible]}`}>
       {headerLinks.map((link) => (
           <li key={link.id}>
             {link.name}
           </li>
         ))}
-        <li>
-          <Button text='contact us' class='primary' type='button'></Button>
+        <li className={classes["specialLink"]}>
+          Contact us
         </li>
       </ul>
     </div>

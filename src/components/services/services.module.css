@@ -1,31 +1,23 @@
 .servicesRow{
-    text-align: center;
     margin-top: 150px;
 }
-.services .square{
-    width: 300px;
-    height: 300px;
-    background-color: white;
-    display: inline-block;
-    box-shadow: 5px 10px 10px 10px black;
-    transform: rotate(45deg);
-    color: black;
-    position: relative;
-}
-.square div{
-    position: absolute;
-    left:50%;
-    top:50%;
-    transform: translate(-50%,-50%) rotate(-45deg);
-}
-.square h1{
-    font-family: fontBlack;
-    color: #04DCB3;
-}
-.square p{
-    font-family: fontRegular;
+
+.servicesRow p{
     padding-top: 10px;
 }
-.square.two{
+.servicesRow .two{
     margin-left: 200px;
+}
+@media(max-width:799px)
+{
+    .servicesRow{
+        margin-top: 0px;
+    }
+    .serviceContainer{
+        margin-top: 150px;
+    }
+    
+    .servicesRow .two{
+        margin-left: 0px;
+    }
 }

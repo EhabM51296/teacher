@@ -4,7 +4,8 @@
     border: none;
     border-radius: 20px;
     cursor: pointer;
-    transition: all 2s;
+    transition: all 1s;
+    font-size: 20px;
     font-family: fontBlack;
 }
 
@@ -26,3 +27,9 @@
     background-color: #04DCB3;
 }
 
+@media(max-width:799px)
+{
+    .btn{
+        font-size: 14px;
+    }
+}

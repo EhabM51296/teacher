@@ -1,0 +1,14 @@
+.teamMember{
+    box-shadow: 5px 10px 8px 10px #888888;
+    padding: 20px 15px;
+}
+.teamMember p{
+    padding-top: 10px;
+}
+.teamPic {
+    width: 100%;
+}
+
+.teamPic img {
+    width: 100%;
+}
